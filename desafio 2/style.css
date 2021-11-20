@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(90deg, #161616,#232323,#343434);
+}
+
+
+h1{
+    color: ghostwhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center
+}
+

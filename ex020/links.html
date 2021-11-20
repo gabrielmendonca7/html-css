@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: gray;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: blue;
+        }
+
+        .especial{
+            background-color: red;
+            color: ghostwhite;
+        }
+
+        a::before{
+            content: '⇒' ;
+            color: darkgray;
+        }
+
+        a::after{
+            content: '⇐';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links </h1>
+    <ul>
+        <li> <a href="https://twitter.com/Gabriel26719808" target="_blank">Perfil Twitter</a> </li>
+        <li> <a href="https://www.youtube.com/channel/UCGHJKhJm1b6zGZgwmLpNkMQ" class="especial">Canal no YouTube</a></li>
+        <li> <a href="https://www.twitch.tv/gabrielxl13">Canal da twitch.tv</a> </li>
+    </ul>
+</body>
+</html>

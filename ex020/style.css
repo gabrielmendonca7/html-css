@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    background-attachment: fixed;
+    background-image: linear-gradient(to top,#4A4F59,#1B1F26);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1{
+    color:#BFBFBD;
+    text-align: center;
+    background-color: #666a73a8;
+}
+
+.ferrari{
+    color: rgba(255, 0, 0, 0.74);
+}
+
+.rbr{
+    color: rgba(1, 1, 146, 0.781);
+}
+
+.amg{
+    color: darkgray;
+}
+
+a::after{
+    text-decoration: underline;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        body{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+table{
+    border-collapse: collapse;
+     width: 450px;
+    
+}
+
+caption{
+    font-size: 1.7em;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+   
+}
+
+col.cnome{
+    background-color:#BB1D2E ;
+}
+col.csexo{
+    background-color: #F1F2F0;
+}
+col.cidade{
+    background-color: #BB1D2E;
+}
+col.cprof{
+    background-color: #F1F2F0;
+}
+
+th,td{
+    font-weight: bolder;
+    border: 1px solid black;
+    padding: 10px;
+    color: #121317;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprof">
+        </colgroup>
+       <caption>Cadrasto</caption>
+       <tr>
+           <th scope="col">Nome</th>
+           <th scope="col">Gênero</th>
+           <th scope="col">Idade</th>
+           <th scope="col">Profissão</th>
+       </tr>
+       <tr>
+           <td>Ragnar</td>
+           <td>M</td>
+           <td>31</td>
+           <td>Viking</td>
+       </tr>
+       <tr>
+           <td>Thomas</td>
+           <td>M</td>
+           <td>28</td>
+           <td>Apostador</td>
+       </tr>
+       <tr>
+           <td>Casimito</td>
+           <td>M</td>
+           <td>25</td>
+           <td>Gordola</td>
+       </tr>
+       <tr>
+           <td>Geralt</td>
+           <td>M</td>
+           <td>35</td>
+           <td>Bruxo</td>
+       </tr>
+       <tr>
+           <td>Checo</td>
+           <td>M</td>
+           <td>34</td>
+           <td>Piloto</td>
+       </tr>
+    </table>
+</body>
+</html>

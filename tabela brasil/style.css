@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    text-justify: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
+thead{
+    color: rgba(128, 128, 128, 0.808);
+    font-weight: lighter;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+
+table{
+   
+    border-collapse: collapse;
+    width: 400px;
+    height: 400px;
+    
+}
+
+tbody{
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+tfoot{
+    color: grey;
+    font-size: 0.7em;
+}
+
+caption{
+    font-size: 1.3em;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding: 10px;
+    
+}
+
+
+ .ponto{
+     font-weight: bold;
+ }
+
+ .vaga-sula{
+     color: green;
+ }
+
+ .vaga-liberta{
+     color: blue;
+ }
+
+ .vaga-pre{
+     color: rgb(0, 217, 255);
+ }
+
+th,td{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 10px;
+    border-top: 1px rgba(0, 0, 0, 0.199) solid;
+   border-bottom: 1px rgba(0, 0, 0, 0.199) solid;
+}
